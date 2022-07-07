@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/readme.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SimpleCameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SimpleCameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/BasicHandMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/BasicHandMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/OculusRuntimeSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OculusRuntimeSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Props.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Prefabs/Props.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Models/safetyhat_low.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Models/safetyhat_low.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657101026763</updated>
       <workItem from="1657112539030" duration="2840000" />
+      <workItem from="1657197655064" duration="690000" />
     </task>
     <servers />
   </component>
