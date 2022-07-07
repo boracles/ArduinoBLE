@@ -20,7 +20,7 @@ LightingSettings:
   m_LightmapMaxSize: 1024
   m_BakeResolution: 32
   m_Padding: 2
-  m_TextureCompression: 1
+  m_TextureCompression: 0
   m_AO: 1
   m_AOMaxDistance: 1
   m_CompAOExponent: 1
@@ -40,8 +40,8 @@ LightingSettings:
   m_FinalGatherFiltering: 1
   m_PVRCulling: 1
   m_PVRSampling: 1
-  m_PVRDirectSampleCount: 16
-  m_PVRSampleCount: 56
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 128
   m_PVREnvironmentSampleCount: 56
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
@@ -56,7 +56,7 @@ LightingSettings:
   m_PVRFilterTypeIndirect: 0
   m_PVRFilterTypeAO: 0
   m_PVRFilteringGaussRadiusDirect: 1
-  m_PVRFilteringGaussRadiusIndirect: 3
+  m_PVRFilteringGaussRadiusIndirect: 4
   m_PVRFilteringGaussRadiusAO: 2
   m_PVRFilteringAtrousPositionSigmaDirect: 0.548
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
