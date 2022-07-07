@@ -1,99 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/DarkRed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/DarkRed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene 2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/2 Scenes/Scene2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/BLE.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/BLE.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/BLE.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/BLE.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/characteristic.js.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/characteristic.js.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/main.js.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/main.js.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/BLE/readme.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOff.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/LedOnOffManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Led On Off/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/Scan and Connect.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/Scan and Connect.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/ScanAndConnect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/basic.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Samples/Scan and Connect/basic.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/ble_services.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/ble_services.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main2.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main2.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/main2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/scan_scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/scan_scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/scan_scene2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scenes/scan_scene2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/BLEServicesManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/BLEServicesManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/BTManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/BTManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/Demo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/Demo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/LedOnOff.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/LedOnOff.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/MyStreamManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/MyStreamManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/ScanScene2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/ScanScene2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/ScanSceneManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/ScanSceneManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/SphereContRot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/SphereContRot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/arduino_char_terminator.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/arduino_char_terminator.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/arduino_length_based_mode.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/arduino_length_based_mode.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/basic.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/basic.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/led_on_off.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/led_on_off.ino.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/manager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BluetoothAPI/Scripts/manager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_DemoSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_DemoSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/ForwardRenderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/ForwardRenderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SimpleCameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SimpleCameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/BasicHandMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Materials/BasicHandMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OculusRuntimeSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OculusRuntimeSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +40,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -146,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657101026763</updated>
-      <workItem from="1657112539030" duration="820000" />
+      <workItem from="1657112539030" duration="2840000" />
     </task>
     <servers />
   </component>
