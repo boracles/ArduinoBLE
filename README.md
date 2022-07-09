@@ -10,7 +10,9 @@
        
 
    ### 2. 심박 센서를 활용하여 사용자의 BPM에 따라 반응하는 Shader 구현하기
+   
+   > ![HeartRate_AdobeExpress](https://user-images.githubusercontent.com/79912862/178100534-c2d5c280-8ef4-4227-92b0-d72167b19acb.gif)
+   
   
    ### 3. 초음파 가습기 모듈을 활용하여 후각 경험 구현하기 
-  
    ### 4. 팬 모터를 활용하여 촉각 경험 구현하기
