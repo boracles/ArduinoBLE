@@ -16,3 +16,5 @@
   
    ### 3. 초음파 가습기 모듈을 활용하여 후각 경험 구현하기 
    ### 4. 팬 모터를 활용하여 촉각 경험 구현하기
+
+   > ![Humidifier_FanMotor](https://user-images.githubusercontent.com/79912862/178100717-39872566-3667-4301-8a58-6ceff454a0b8.gif)
