@@ -66,6 +66,7 @@ MonoBehaviour:
   _updateRootPose: 0
   _updateRootScale: 1
   _enablePhysicsCapsules: 0
+  _applyBoneTranslations: 1
 --- !u!114 &114392993255165844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,9 +82,9 @@ MonoBehaviour:
   _confidenceBehavior: 1
   _systemGestureBehavior: 1
   _renderPhysicsCapsules: 0
-  _skeletonMaterial: {fileID: 0}
+  _skeletonMaterial: {fileID: 2100000, guid: abb80e58ce7c0a842a4758d09d9d71e0, type: 2}
   _capsuleMaterial: {fileID: 0}
-  _systemGestureMaterial: {fileID: 0}
+  _systemGestureMaterial: {fileID: 2100000, guid: a3aacb3bb3e11b948899db3fbefc6fe1, type: 2}
 --- !u!114 &114925265787909616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +134,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5ba7d209f622bb44e87b47ce27ee27b7, type: 2}
+  - {fileID: 2100000, guid: cc8c9e8a516866042b69a6919d0ab885, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

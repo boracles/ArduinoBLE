@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 451071879402962979, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
       propertyPath: m_Name
-      value: Room Variant
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 939378550720109209, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
       propertyPath: m_RootOrder
@@ -62,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 2108382867927392758, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100008, guid: ff6dc36862fe41641bb21568d92147c9, type: 3}
+      objectReference: {fileID: 2100000, guid: bd2d742ee2ce7a740ae0cf992a38be74, type: 2}
     - target: {fileID: 3589161814319504333, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
       propertyPath: originalPos
       value: 
