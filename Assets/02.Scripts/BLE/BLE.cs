@@ -9,10 +9,7 @@ using TMPro;
 public class BLE : MonoBehaviour
 {
     private BluetoothHelper helper;
-    private static string serviceUUID = "00001800-0000-1000-8000-00805f9b34fb";
-    private static string characteristicUUID = "00002a00-0000-1000-8000-00805f9b34fb";
-    private BluetoothHelperCharacteristic bluetoothHelperCharacteristic;
-    
+
     // 싱글턴 인스턴스 선언
     public static BLE instance = null;
     
@@ -62,7 +59,6 @@ public class BLE : MonoBehaviour
             helper.setTerminatorBasedStream("\n");
         
             Permission.RequestUserPermission(Permission.CoarseLocation);
-            bluetoothHelperCharacteristic = new BluetoothHelperCharacteristic(characteristicUUID, serviceUUID);
         }
         catch (Exception e)
         {
