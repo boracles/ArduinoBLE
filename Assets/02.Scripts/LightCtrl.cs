@@ -33,7 +33,7 @@ public class LightCtrl : MonoBehaviour
     void OnMessageArrival()
     {
         // Directional Light의 값에 대입해준다. 
-        // 5 - 880 > 1-0 : 조도 센서가 있는 환경에서의 값을 비교해서 수치를 조정한다. 
+        // 0 - 880 > 1-0 : 조도 센서가 있는 환경에서의 값을 비교해서 수치를 조정한다. 
            
         float _intensity = 1 - ((float.Parse(bleMgr.message)) / 880);
                 
