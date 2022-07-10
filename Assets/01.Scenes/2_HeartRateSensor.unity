@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.019446827, g: 0.026405184, b: 0.045210212, a: 1}
+  m_IndirectSpecularColor: {r: 0.019446759, g: 0.0264051, b: 0.04521008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -395,6 +395,51 @@ Transform:
   m_Father: {fileID: 929086732}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &813572574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813572576}
+  - component: {fileID: 813572575}
+  m_Layer: 0
+  m_Name: BPMCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &813572575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813572574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0065531b1b0c949b7b834ebb32bd6784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallMat: {fileID: 2100000, guid: d92ef32394b5f474385d74b565a7bdd7, type: 2}
+  bulb: {fileID: 1556901917}
+--- !u!4 &813572576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813572574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.37515, y: -2.9722183, z: 4.1919465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929086731
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,8 +816,12 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1509234650889192, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_Name
+      value: LightBulb
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509234650889192, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1516551261457024, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -908,6 +957,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+--- !u!1 &1556901917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509234650889192, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+  m_PrefabInstance: {fileID: 1556901916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1687258581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,7 +1286,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1618853973342174559, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8938697148675522486, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
       propertyPath: m_RootOrder
