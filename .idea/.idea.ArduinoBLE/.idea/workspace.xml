@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-2.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-3.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SceneMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/SceneMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Workshop Set.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Prefabs/Workshop Set.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

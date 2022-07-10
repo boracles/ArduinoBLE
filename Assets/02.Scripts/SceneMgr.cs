@@ -8,8 +8,6 @@ public class SceneMgr : MonoBehaviour
 {
     public static SceneMgr instance = null;
     
-    private static readonly int SceneChange = Animator.StringToHash("SceneChange");
-
     private void Awake()
     {
         if (instance == null)
@@ -18,9 +16,9 @@ public class SceneMgr : MonoBehaviour
         }
         else if(instance != this)
         {
-            Destroy(this.gameObject);    
+            Destroy(gameObject);    
         }
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 
     public void MoveScene(int sceneInfo)
