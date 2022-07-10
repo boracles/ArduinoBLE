@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using ArduinoBluetoothAPI;
@@ -39,22 +40,30 @@ public class BLE : MonoBehaviour
 
     private void Start()
     {
-        BluetoothHelper.BLE = true;
-        helper = BluetoothHelper.GetInstance("BORATOOTH");
-        helper.OnScanEnded += OnScanEnded;
-        helper.OnConnected += OnConnected;
-        helper.OnDataReceived += OnMessageReceived;
-        helper.OnConnectionFailed += OnConnectionFailed;
-        helper.OnCharacteristicChanged += OnCharacteristicChanged;
-        helper.OnCharacteristicNotFound += OnCharacteristicNotFound;
-        helper.OnServiceNotFound += OnServiceNotFound;
+        try
+        {
+            BluetoothHelper.BLE = true;
+            helper = BluetoothHelper.GetInstance("BORATOOTH");
+            helper.OnScanEnded += OnScanEnded;
+            helper.OnConnected += OnConnected;
+            helper.OnDataReceived += OnMessageReceived;
+            helper.OnConnectionFailed += OnConnectionFailed;
+            helper.OnCharacteristicChanged += OnCharacteristicChanged;
+            helper.OnCharacteristicNotFound += OnCharacteristicNotFound;
+            helper.OnServiceNotFound += OnServiceNotFound;
         
-        helper.ScanNearbyDevices();
+            helper.ScanNearbyDevices();
         
-        helper.setTerminatorBasedStream("\n");
+            helper.setTerminatorBasedStream("\n");
         
-        Permission.RequestUserPermission(Permission.CoarseLocation);
-        bluetoothHelperCharacteristic = new BluetoothHelperCharacteristic(characteristicUUID, serviceUUID);
+            Permission.RequestUserPermission(Permission.CoarseLocation);
+            bluetoothHelperCharacteristic = new BluetoothHelperCharacteristic(characteristicUUID, serviceUUID);
+        }
+        catch (Exception e)
+        {
+            WriteMsg(e.Message);
+        }
+        
     }
 
     private void OnScanEnded(BluetoothHelper helper, LinkedList<BluetoothDevice> devices)
@@ -83,16 +92,16 @@ public class BLE : MonoBehaviour
     
     void OnConnected(BluetoothHelper helper)
     {
-        List<BluetoothHelperService> services = helper.getGattServices();
-        foreach (BluetoothHelperService s in services)
+        WriteMsg($"블루투스 연결 완료");
+
+        try
         {
-            WriteMsg($"Service : [{s.getName()}]");
-            foreach (BluetoothHelperCharacteristic c in s.getCharacteristics())
-            {
-                WriteMsg($"Characteristic : [{c.getName()}]");
-            }
+            helper.StartListening();
         }
-        helper.Subscribe(bluetoothHelperCharacteristic);
+        catch (Exception e)
+        {
+            WriteMsg(e.Message);
+        }
     }
 
     void OnConnectionFailed(BluetoothHelper helper)
@@ -115,11 +124,6 @@ public class BLE : MonoBehaviour
     void OnCharacteristicNotFound(BluetoothHelper helper, string service, string characteristic)
     {
         Debug.Log($"Characteristic [{service}] of service [{service}] not found");
-    }
-
-    public void Write(string data)
-    {
-        helper.WriteCharacteristic(bluetoothHelperCharacteristic, data);
     }
 
     public void SendData(int i)
