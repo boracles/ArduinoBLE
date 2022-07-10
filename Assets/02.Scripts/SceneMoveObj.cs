@@ -7,25 +7,23 @@ public class SceneMoveObj : MonoBehaviour
 {
     private int sceneInfo;
 
-    void Start()
+    private void Start()
     {
         sceneInfo = GetComponent<SceneInfo>().sceneInfo;
     }
 
     private void OnTriggerEnter(Collider coll)
     {
-        if (coll.CompareTag("ZONE"))
-        {
-            SceneMgr.instance.MoveScene(sceneInfo);
-            BLE.instance.SendData(sceneInfo);
-        }
+        if (!coll.CompareTag("ZONE")) return;
+        SceneMgr.instance.MoveScene(sceneInfo);
+        BLE.instance.SendData(sceneInfo);
     }
 
     private void OnTriggerStay(Collider coll)
     {
         if (coll.CompareTag("ZONE"))
         {
-            Destroy(this.gameObject, 0);
+            Destroy(gameObject, 0);
         }
     }
 }

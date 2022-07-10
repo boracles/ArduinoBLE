@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 102658938160595843, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
+      propertyPath: m_Radius
+      value: 0.08424819
+      objectReference: {fileID: 0}
     - target: {fileID: 451071879402962979, guid: 268bcd0f617cf9e43bf7c6d53dc6dfda, type: 3}
       propertyPath: m_Name
       value: Room
