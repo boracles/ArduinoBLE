@@ -23,16 +23,6 @@ public class SceneMgr : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    void Start()
-    {
-        
-    }
-    
-    void Update()
-    {
-        
-    }
-
     public void MoveScene(int sceneInfo)
     {
         switch (sceneInfo)

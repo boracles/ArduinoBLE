@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BPMCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/BPMCtrl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/Lightmap-1_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-2.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/3_Humidifier/ReflectionProbe-3.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/SceneMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/SceneMgr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Workshop Set.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03.Prefabs/Workshop Set.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
