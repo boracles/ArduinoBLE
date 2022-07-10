@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4344865891687486}
   - component: {fileID: 114894749535269414}
   - component: {fileID: 114475763992432942}
+  - component: {fileID: 3522443663692286654}
   m_Layer: 0
   m_Name: InteractableToolsSDKDriver
   m_TagString: Untagged
@@ -68,5 +69,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85fb71180be543b44a6c8c1e4253dce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3522443663692286654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099536711198800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5101977785bb8438d575c415e5a680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
