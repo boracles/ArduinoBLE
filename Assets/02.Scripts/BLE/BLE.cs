@@ -21,6 +21,11 @@ public class BLE : MonoBehaviour
     public string message;
     private string tmp;
     
+    // 델리게이트 선언
+    public delegate void MessageHandler();
+    // 이벤트 선언
+    public static event MessageHandler OnMessageArrival;
+    
     // 스크립트가 실행되면 가장 먼저 호출되는 유니티 이벤트 함수
     private void Awake()
     {
@@ -84,10 +89,13 @@ public class BLE : MonoBehaviour
         bleMsg.text = tmp;
     }
 
+    // 아두이노로부터 도착한 데이터 처리
     private void OnMessageReceived(BluetoothHelper helper)
     {
         message = helper.Read();
         WriteMsg($"들어온 값 : {message}");
+
+        OnMessageArrival();
     }
     
     void OnConnected(BluetoothHelper helper)
