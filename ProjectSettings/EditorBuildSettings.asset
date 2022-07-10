@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01.Scenes/1_LightSensor.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/01.Scenes/0_BluetoothClassicTest.unity
+    guid: a31f1d7db702e4002a7b6e75f1919f5e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 793a07525d2840e44bfb5e9d10d024e7, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8d397772a2abdef4c9f8572eca78af37, type: 2}
