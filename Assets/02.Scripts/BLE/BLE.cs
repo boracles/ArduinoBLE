@@ -45,7 +45,7 @@ public class BLE : MonoBehaviour
         try
         {
             BluetoothHelper.BLE = true;
-            helper = BluetoothHelper.GetInstance("BORATOOTH");
+            helper = BluetoothHelper.GetInstance("OHLALA");
             helper.OnScanEnded += OnScanEnded;
             helper.OnConnected += OnConnected;
             helper.OnDataReceived += OnMessageReceived;

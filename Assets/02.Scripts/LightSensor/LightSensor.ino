@@ -7,7 +7,7 @@ int cds = 0;
 void setup()
 {
   Serial.begin(9600);
-  BTSerial.begin(38400);    //블루투스 모듈과의 시리얼 통신 초기화
+  BTSerial.begin(9600);    //블루투스 모듈과의 시리얼 통신 초기화
 }
 
 void loop()
