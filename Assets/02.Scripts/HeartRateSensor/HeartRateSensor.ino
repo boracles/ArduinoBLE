@@ -26,7 +26,7 @@ void setup()
   pinMode(blinkPin,OUTPUT);         // 심장박동에 따라 깜빡일 13번핀 LED, OUTPUT으로 pinMode 설정
   pinMode(fadePin,OUTPUT);          // 심장박동에 따라 페이드 할 5번핀 LED, OUTPUT으로 pinMode 설정
   Serial.begin(115200);             // 시리얼통신 속도 설정
-  BTSerial.begin(38400);
+  BTSerial.begin(9600);
   interruptSetup();                 // 2밀리초마다 심장 박동 센서 신호를 읽기
 }
 
