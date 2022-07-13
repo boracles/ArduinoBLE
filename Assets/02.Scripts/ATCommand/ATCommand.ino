@@ -21,6 +21,6 @@ void loop()
   if(Serial.available())        // 시리얼에 신호가 들어오면
   {
     char ch = Serial.read();    // 시리얼 모니터 > 아두이노 > 블루투스 모듈
-    BTSerial.write(ch);
+    BTSerial.write(ch);         
   }
 }
