@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using ArduinoBluetoothAPI;
@@ -8,7 +9,7 @@ using TMPro;
 public class BLE : MonoBehaviour
 {
     private BluetoothHelper helper;
-    
+
     // 싱글턴 인스턴스 선언
     public static BLE instance = null;
     
@@ -16,6 +17,11 @@ public class BLE : MonoBehaviour
     public TMP_Text bleMsg;
     public string message;
     private string tmp;
+    
+    // 델리게이트 선언
+    public delegate void MessageHandler();
+    // 이벤트 선언
+    public static event MessageHandler OnMessageArrival;
     
     // 스크립트가 실행되면 가장 먼저 호출되는 유니티 이벤트 함수
     private void Awake()
@@ -36,21 +42,26 @@ public class BLE : MonoBehaviour
 
     private void Start()
     {
-        BluetoothHelper.BLE = true;
-        helper = BluetoothHelper.GetInstance("BORATOOTH");
-        helper.OnScanEnded += OnScanEnded;
-        helper.OnConnected += OnConnected;
-        helper.OnDataReceived += OnMessageReceived;
-        helper.OnConnectionFailed += OnConnectionFailed;
-        helper.OnCharacteristicChanged += OnCharacteristicChanged;
-        helper.OnCharacteristicNotFound += OnCharacteristicNotFound;
-        helper.OnServiceNotFound += OnServiceNotFound;
+        try
+        {
+            BluetoothHelper.BLE = true;
+            helper = BluetoothHelper.GetInstance("ETTOI");
+            helper.OnScanEnded += OnScanEnded;
+            helper.OnConnected += OnConnected;
+            helper.OnDataReceived += OnMessageReceived;
+            helper.OnConnectionFailed += OnConnectionFailed;
+
+            helper.ScanNearbyDevices();
         
-        helper.ScanNearbyDevices();
+            helper.setTerminatorBasedStream("\n");
         
-        helper.setTerminatorBasedStream("\n");
+            Permission.RequestUserPermission(Permission.CoarseLocation);
+        }
+        catch (Exception e)
+        {
+            WriteMsg(e.Message);
+        }
         
-        Permission.RequestUserPermission(Permission.CoarseLocation);
     }
 
     private void OnScanEnded(BluetoothHelper helper, LinkedList<BluetoothDevice> devices)
@@ -71,22 +82,26 @@ public class BLE : MonoBehaviour
         bleMsg.text = tmp;
     }
 
+    // 아두이노로부터 도착한 데이터 처리
     private void OnMessageReceived(BluetoothHelper helper)
     {
         message = helper.Read();
         WriteMsg($"들어온 값 : {message}");
+
+        OnMessageArrival();
     }
     
     void OnConnected(BluetoothHelper helper)
     {
-        List<BluetoothHelperService> services = helper.getGattServices();
-        foreach (BluetoothHelperService s in services)
+        WriteMsg($"블루투스 연결 완료");
+
+        try
         {
-            WriteMsg($"Service : [{s.getName()}]");
-            foreach (BluetoothHelperCharacteristic c in s.getCharacteristics())
-            {
-                WriteMsg($"Characteristic : [{c.getName()}]");
-            }
+            helper.StartListening();
+        }
+        catch (Exception e)
+        {
+            WriteMsg(e.Message);
         }
     }
 
@@ -94,22 +109,6 @@ public class BLE : MonoBehaviour
     {
         WriteMsg("블루투스 연결 실패");
         helper.ScanNearbyDevices();
-    }
-
-    void OnCharacteristicChanged(BluetoothHelper helper, byte [] data, BluetoothHelperCharacteristic characteristic)
-    {
-        Debug.Log($"Update valud for characteristic [{characteristic.getName()}] of service [{characteristic.getService()}]");
-        Debug.Log($"New value : [{System.Text.Encoding.ASCII.GetString(data)}]");
-    }
-
-    void OnServiceNotFound(BluetoothHelper helper, string service)
-    {
-        Debug.Log($"Service [{service}] not found");
-    }
-
-    void OnCharacteristicNotFound(BluetoothHelper helper, string service, string characteristic)
-    {
-        Debug.Log($"Characteristic [{service}] of service [{service}] not found");
     }
 
     public void SendData(int i)
@@ -122,9 +121,6 @@ public class BLE : MonoBehaviour
         helper.OnScanEnded -= OnScanEnded;
         helper.OnConnected -= OnConnected;
         helper.OnConnectionFailed -= OnConnectionFailed;
-        helper.OnCharacteristicChanged -= OnCharacteristicChanged;
-        helper.OnCharacteristicNotFound -= OnCharacteristicNotFound;
-        helper.OnServiceNotFound -= OnServiceNotFound;
         helper.OnDataReceived -= OnMessageReceived;
         helper.Disconnect();
     }
