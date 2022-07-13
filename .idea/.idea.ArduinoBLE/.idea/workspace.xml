@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/1_LightSensor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/02.Scripts/BPMCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Scripts/LightCtrl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
