@@ -8,9 +8,6 @@ using TMPro;
 public class BLE : MonoBehaviour
 {
     private BluetoothHelper helper;
-    private static string serviceUUID = "00001800-0000-1000-8000-00805f9b34fb";
-    private static string characteristicUUID = "00002a00-0000-1000-8000-00805f9b34fb";
-    private BluetoothHelperCharacteristic bluetoothHelperCharacteristic;
     
     // 싱글턴 인스턴스 선언
     public static BLE instance = null;
@@ -54,7 +51,6 @@ public class BLE : MonoBehaviour
         helper.setTerminatorBasedStream("\n");
         
         Permission.RequestUserPermission(Permission.CoarseLocation);
-        bluetoothHelperCharacteristic = new BluetoothHelperCharacteristic(characteristicUUID, serviceUUID);
     }
 
     private void OnScanEnded(BluetoothHelper helper, LinkedList<BluetoothDevice> devices)
@@ -92,7 +88,6 @@ public class BLE : MonoBehaviour
                 WriteMsg($"Characteristic : [{c.getName()}]");
             }
         }
-        helper.Subscribe(bluetoothHelperCharacteristic);
     }
 
     void OnConnectionFailed(BluetoothHelper helper)
@@ -115,11 +110,6 @@ public class BLE : MonoBehaviour
     void OnCharacteristicNotFound(BluetoothHelper helper, string service, string characteristic)
     {
         Debug.Log($"Characteristic [{service}] of service [{service}] not found");
-    }
-
-    public void Write(string data)
-    {
-        helper.WriteCharacteristic(bluetoothHelperCharacteristic, data);
     }
 
     public void SendData(int i)
