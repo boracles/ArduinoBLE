@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>     // 소프트웨어 시리얼 통신 라이브러리 호출
 
-SoftwareSerial BTSerial(2, 3);  // 소프트웨어 시리얼포트 (TX, RX)
+SoftwareSerial BTSerial(7, 8);  // 소프트웨어 시리얼포트 (TX, RX)
 
 int cds = 0;
 
