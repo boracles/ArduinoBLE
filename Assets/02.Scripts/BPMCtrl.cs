@@ -15,7 +15,8 @@ public class BPMCtrl : MonoBehaviour
     [Range(50, 240)]
     [SerializeField] private float bpm = 100.0f;
 
-    private static readonly int Bpm = Shader.PropertyToID("BPM");
+    private static readonly int flowTime = Shader.PropertyToID("FlowTime");
+    private static readonly int flowIntensity = Shader.PropertyToID("FlowIntensity");
     
     private void OnEnable()
     {
@@ -36,18 +37,19 @@ public class BPMCtrl : MonoBehaviour
 
     private void OnMessageArrival()
     {
-        bpm = float.Parse(bleMgr.message);
+        bpm = int.Parse(bleMgr.message);
         
-        if (bpm > 1.0f)
+        if (bpm > 1)
         {
-            wallMat.SetFloat(Bpm, bpm/24.0f);
+            wallMat.SetFloat(flowTime, bpm/240);
+            wallMat.SetFloat(flowIntensity, bpm/24);
         }
         else switch (bpm)
         {
-            case 1.0f:
+            case 1:
                 bulb.SetActive(true);
                 break;
-            case 0.0f:
+            case 0:
                 bulb.SetActive(false);
                 break;
         }

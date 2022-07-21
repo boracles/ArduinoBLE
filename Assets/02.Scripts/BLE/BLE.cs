@@ -45,15 +45,12 @@ public class BLE : MonoBehaviour
         try
         {
             BluetoothHelper.BLE = true;
-            helper = BluetoothHelper.GetInstance("OHLALA");
+            helper = BluetoothHelper.GetInstance("BORATOOTH");
             helper.OnScanEnded += OnScanEnded;
             helper.OnConnected += OnConnected;
             helper.OnDataReceived += OnMessageReceived;
             helper.OnConnectionFailed += OnConnectionFailed;
-            helper.OnCharacteristicChanged += OnCharacteristicChanged;
-            helper.OnCharacteristicNotFound += OnCharacteristicNotFound;
-            helper.OnServiceNotFound += OnServiceNotFound;
-        
+
             helper.ScanNearbyDevices();
         
             helper.setTerminatorBasedStream("\n");
@@ -114,22 +111,6 @@ public class BLE : MonoBehaviour
         helper.ScanNearbyDevices();
     }
 
-    void OnCharacteristicChanged(BluetoothHelper helper, byte [] data, BluetoothHelperCharacteristic characteristic)
-    {
-        Debug.Log($"Update valud for characteristic [{characteristic.getName()}] of service [{characteristic.getService()}]");
-        Debug.Log($"New value : [{System.Text.Encoding.ASCII.GetString(data)}]");
-    }
-
-    void OnServiceNotFound(BluetoothHelper helper, string service)
-    {
-        Debug.Log($"Service [{service}] not found");
-    }
-
-    void OnCharacteristicNotFound(BluetoothHelper helper, string service, string characteristic)
-    {
-        Debug.Log($"Characteristic [{service}] of service [{service}] not found");
-    }
-
     public void SendData(int i)
     {
         helper.SendData(i.ToString());
@@ -140,9 +121,6 @@ public class BLE : MonoBehaviour
         helper.OnScanEnded -= OnScanEnded;
         helper.OnConnected -= OnConnected;
         helper.OnConnectionFailed -= OnConnectionFailed;
-        helper.OnCharacteristicChanged -= OnCharacteristicChanged;
-        helper.OnCharacteristicNotFound -= OnCharacteristicNotFound;
-        helper.OnServiceNotFound -= OnServiceNotFound;
         helper.OnDataReceived -= OnMessageReceived;
         helper.Disconnect();
     }

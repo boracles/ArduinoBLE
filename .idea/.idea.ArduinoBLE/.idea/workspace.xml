@@ -6,10 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="bb211ee6-b544-4a60-8c7c-8f9b17155168" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArduinoBLE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/2_HeartRateSensor.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/BLE/BLE.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/LightSensor/LightSensor.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/LightSensor/LightSensor.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/BPMCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/BPMCtrl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Materials/Wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Materials/Wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Shaders/BPMCtrl.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Shaders/BPMCtrl.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_Albedo.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_Albedo.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_Normal.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Textures/Concrete/Ground_Normal.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Images/Textures/Flowmap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Images/Textures/Flowmap.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2020.3.33f1/Unity.app/Contents/MacOS/Unity" />
@@ -80,6 +86,7 @@
       <workItem from="1657112539030" duration="2840000" />
       <workItem from="1657197655064" duration="690000" />
       <workItem from="1657546238770" duration="3193000" />
+      <workItem from="1658383808657" duration="1759000" />
     </task>
     <servers />
   </component>

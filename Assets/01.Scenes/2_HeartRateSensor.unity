@@ -1397,6 +1397,34 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8943221063645357403, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221064018253520, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221064102715741, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221064730835936, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221064970542227, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221065022270060, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943221065027544298, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8943998766704475012, guid: c8d0b32e241344c29b9a6d3b8a1ebc31, type: 3}
       propertyPath: m_Name
       value: RoomHeartRate
